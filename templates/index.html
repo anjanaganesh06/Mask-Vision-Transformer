@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Frame Masking</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Upload a Video</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" id="vd" name="video">
+            <input type="submit" id="sb" value="Upload">
+        </form>
+
+        <div class="output-container" id="output-container">
+            <div id="output-content">
+               <!---- Output content goes here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to show the output container (you can call this function when you want to show the output)
+        function showOutput() {
+            document.getElementById('output-container').style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
