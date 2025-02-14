@@ -1,6 +1,6 @@
 # MaskViT
 
-Developed a system that processes video files to extract frames, train a Vision Transformer (ViT) model for masked autoencoding, and reconstruct frames. The system evaluates the accuracy of the reconstructed frames compared to the original frames.
+Developed a system that processes video files to extract frames, trained a Vision Transformer (ViT) model for masked autoencoding, and reconstruction of frames. The system evaluates the accuracy of the reconstructed frames compared to the original frames.
 
 The program extracts frames from the video and uses a pre-trained Vision Transformer (ViT) model to perform masked autoencoding. This involves training the model to reconstruct masked parts of the images (frames) and then evaluating the reconstruction accuracy.
 
